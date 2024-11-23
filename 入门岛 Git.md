@@ -13,7 +13,6 @@
 3. 【大家可以叫我】内容可以是 GitHub 昵称、微信昵称或其他网名。
 4. 在 GitHub 上创建一个 Pull Request，提供对应的 PR 链接。
 
-fork 仓库
 ![https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20133112.png](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20133112.png)
 
 ![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20140229.png)
