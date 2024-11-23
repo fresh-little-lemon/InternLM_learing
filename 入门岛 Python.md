@@ -68,10 +68,10 @@ res = "```json\n{\n \"key\": \"value\"\n}\n```"
 if res.startswith("```json"):
     res = res.strip("```json").strip("```").strip()
 ```
-![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%20 2024-11-23%20162548.png)
+![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20162548.png)
 
 最终成功输出
-![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%20 2024-11-23%20162626.png)
+![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20162626.png)
 
 
 ## 可选任务 
@@ -81,7 +81,7 @@ if res.startswith("```json"):
 任务描述：使用 VScode 连接开发机后使用 `pip install -t` 命令安装一个 numpy 到看开发机 `/root/myenvs` 目录下，并成功在一个新建的 python 文件中引用。
 
 成功运行
-![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%20 2024-11-23%20172747.png)
+![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20172747.png)
 
 但此时如果在代码中添加一个不在 `/root/myenvs` 目录下的 python 库，如 `import pandas as pd` 就会报错：
-![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%20 2024-11-23%20172819.png)
+![InternLM_learing/images/屏幕截图 2024-11-23 162106.png at main · fresh-little-lemon/InternLM_learing (github.com)](https://github.com/fresh-little-lemon/InternLM_learing/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-23%20172819.png)
